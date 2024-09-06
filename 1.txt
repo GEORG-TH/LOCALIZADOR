@@ -1,0 +1,23 @@
+quiero una invitación virtual en html q consiste en varias secciones:
+1. en la primera seccion quiero imagen. Que sea responsive . Que sea vea toda la imagen y que se acople al dispositivo.
+2. en la segunda seccion. quiero q pongas una imagen centrada(logo en el centro) que tiene un 30% de ancho del total del dispositivo y de altura 20% del total del dispositivo. Su ubicacion que sea un 50% que ocupe la imagen de la primera seccion y el  restante al otro lado. y que gire una 360° sin limite de tiempo. rotateY(180deg) . responsive y que se acople al dispositivo. 
+3. en la tercera seccion quiero q pongas una imagen centrada que tiene un 50% de ancho del total del dispositivo y de altura 25% del total del dispositivo.  que se acople al dispositivo.
+4. en la cuarta seccion quiero q pongas una imagen centrada que tiene un 40% de ancho del total del dispositivo y de altura 20% del total del dispositivo.Al dar click al imagen, que reproduzca una cancion en mp4
+
+5. en la quinta sección  un pequeño texto donde diga "Dar click para reproducir musica". responsive y que se acople al dispositivo.
+6. en la sexta seccion. Un texto centrado Arial que diga "En compañia de mis padres" en una linea, 
+
+7. en la septima sección,  un texto Arial que diga "asteria acho y Manuel vargas" en una linea. Que sea responsive estos textos y que se acople al dispositivo.
+
+8. en la octava seccion, quiero q pongas una imagen centrada que tiene un 10% de ancho del total del dispositivo y de altura 5% del total del dispositivo.  que se acople al dispositivo.responsive y que se acople al dispositivo.
+
+9. en la novena sección. Un texto centrado Arial que diga "Mis padrinos" en una linea, 
+
+10. en la decima sección. , un texto Arial que diga "Francisca Acho y Roberto de la Cruz" en una linea. 
+
+11. salto de linea aplicar 2 veces, <br> y colocar un texto centrado arial "Los esperamos para celebrar juntos". Que sea responsive estos textos y que se acople al dispositivo. 
+
+12. en la octava seccion quiero q pongas una imagen centrada que tiene un 40% de ancho del total del dispositivo y de altura 15% del total del dispositivo.  que se acople al dispositivo.
+
+13. en la novena seccion, una imagen(background) que ocupe el 100% de ancho del total del dispositivo y altura un 15% del total del dispositivo. tendro de eso. un texto centrado Arial que diga "faltan" y debajo quiero un temporizador que tenga dias horas minutos y segundos. tickcounter, y que termine el 20 de setiembre 00:00 horas.  Ejemplo:  0:00:00:00  debajo de cada 0 debe indicar que es. dias,horas,minutos y segundos. Aparecer solo numero con su ":" de separacion .
+10. Fondo general debe ser este color: dfd1c9

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rotación de Imagen al Estilo Moneda</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #dfd1c9;
+        }
+        .container {
+            perspective: 1000px; /* Agrega profundidad para la perspectiva */
+        }
+        .coin {
+            position: relative;
+            width: 200px;
+            height: 200px;
+            transform-style: preserve-3d;
+            transform: rotateY(0deg);
+            animation: rotateY 5s infinite linear;
+        }
+        .face {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            background: no-repeat center/cover;
+            backface-visibility: hidden; /* Oculta la cara trasera */
+        }
+        .front {
+            background-image: url('sec2log.png'); /* Imagen frontal */
+            transform: translateZ(100px); /* Mueve la cara hacia adelante */
+        }
+        .back {
+            background-image: url('sec2log.png'); /* Imagen trasera (opcional) */
+            transform: rotateY(180deg) translateZ(100px); /* Mueve la cara hacia atrás */
+        }
+        @keyframes rotateY {
+            from {
+                transform: rotateY(0deg);
+            }
+            to {
+                transform: rotateY(360deg);
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="coin">
+            <div class="face front"></div>
+            <div class="face back"></div>
+        </div>
+    </div>
+</body>
+</html>
